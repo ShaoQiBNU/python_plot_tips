@@ -1,7 +1,7 @@
 python画图相关tips
 ================
 
-# 设置字体为times new roman
+# 1. 设置字体为times new roman
 
 > 代码及结果如下：
 
@@ -51,7 +51,7 @@ plt.show()
 
 ![image](https://github.com/ShaoQiBNU/python_plot_tips/blob/master/image/1.tiff)
 
-# 直方图及样式填充
+# 2. 直方图及样式填充
 
 > 代码及结果如下：
 
