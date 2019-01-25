@@ -1,10 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sat May 26 19:13:32 2018
-
-@author: shaoqi_i
-"""
-
 import  matplotlib.pyplot as plt  
 
 #数据设置  
