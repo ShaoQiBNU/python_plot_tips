@@ -48,7 +48,8 @@ plt.title('A and B',fontdict=font2)
 
 plt.show()
 ```
-img1
+
+![image](https://github.com/ShaoQiBNU/python_plot_tips/blob/master/image/1.tiff)
 
 # 直方图及样式填充
 
@@ -156,4 +157,5 @@ plt.savefig('/Users/shaoqi/Desktop/1.tiff', dpi=400)
 
 plt.show()
 ```
-img2
+
+![image](https://github.com/ShaoQiBNU/python_plot_tips/blob/master/image/2.tiff)
