@@ -1,0 +1,24 @@
+# -*- coding: utf-8 -*-
+
+import pandas as pd
+from sklearn.metrics import confusion_matrix
+from sklearn.metrics import classification_report
+from sklearn.metrics import cohen_kappa_score
+
+
+df = pd.read_csv("C:\\Users\\SQ\\Desktop\\gouqi_pred.csv",sep=',')
+
+# 混淆矩阵
+print("confusion matrix")
+cm = confusion_matrix(df['label'], df['pred'])
+print(cm)
+
+# 各类分类指标汇总
+print("classification report")
+cr = classification_report(df['label'], df['pred'])
+print(cr)
+
+# kappa系数
+print("kappa")
+kappa = cohen_kappa_score(df['label'], df['pred']) 
+print(kappa)
