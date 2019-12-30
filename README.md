@@ -159,3 +159,9 @@ plt.show()
 ```
 
 ![image](https://github.com/ShaoQiBNU/python_plot_tips/blob/master/image/2.tiff)
+
+
+# 3. 泰勒图
+
+https://github.com/PeterRochford/SkillMetrics
+
